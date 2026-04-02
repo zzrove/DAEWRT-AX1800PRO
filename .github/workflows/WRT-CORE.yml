@@ -137,9 +137,9 @@ jobs:
          mkdir -p files/usr/share/dae
          wget -O files/usr/share/dae/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
          wget -O files/usr/share/dae/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
-         cd files/share
-         ln -s dae /usr/share/daed
-         ls usr/share
+         cd files/usr/share
+         ln -s dae daed
+         ls -l
 
 
 #############################测试代码####
