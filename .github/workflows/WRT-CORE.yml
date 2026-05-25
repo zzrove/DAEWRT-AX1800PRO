@@ -213,8 +213,8 @@ jobs:
           chmod +x files/usr/bin/dae
           rm -f dae.zip
           
-          chmod 600 build_dir/target-*/root-*/etc/dae/config.dae
-          ls -l build_dir/target-*/root-*/etc/dae/config.dae
+          #chmod 600 build_dir/target-*/root-*/etc/dae/config.dae
+          #ls -l build_dir/target-*/root-*/etc/dae/config.dae
           
 #############################测试代码####    
 
