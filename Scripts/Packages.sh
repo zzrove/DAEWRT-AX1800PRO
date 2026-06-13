@@ -74,7 +74,7 @@ UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
-
+UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
