@@ -1,7 +1,7 @@
 #防堆叠
 
 #科学插件调整
-CONFIG_PACKAGE_luci-app-daed=y
+CONFIG_PACKAGE_luci-app-daede=y
 #CONFIG_PACKAGE_luci-app-dae=y
 #CONFIG_PACKAGE_dae-geosite=y
 #CONFIG_PACKAGE_dae-geoip=y
