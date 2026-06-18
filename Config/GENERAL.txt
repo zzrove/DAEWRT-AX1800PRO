@@ -1,10 +1,9 @@
 #防堆叠
 
-#科学插件调整
+#开启全新的 kenzok8 面板及底层依赖支持
 CONFIG_PACKAGE_luci-app-daede=y
-#CONFIG_PACKAGE_luci-app-dae=y
-#CONFIG_PACKAGE_dae-geosite=y
-#CONFIG_PACKAGE_dae-geoip=y
+CONFIG_PACKAGE_dae=y
+CONFIG_PACKAGE_daed=y
 #增加插件
 CONFIG_PACKAGE_luci-app-lucky=y
 CONFIG_PACKAGE_luci-app-samba4=y
